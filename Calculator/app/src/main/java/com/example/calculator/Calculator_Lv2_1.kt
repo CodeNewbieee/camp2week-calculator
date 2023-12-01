@@ -21,11 +21,11 @@ class Calculator_Lv2_1 {
             var num2 = readLine()!!.toDouble()
 
             when (op) {
-                "+" -> println("결과 : ${num1 + num2}")
-                "-" -> println("결과 : ${num1 - num2}")
-                "*" -> println("결과 : ${num1 * num2}")
-                "/" -> println("결과 : ${num1 / num2}")
-                "%" -> println("결과 : ${num1 % num2}")
+                "+" -> println("더하기 결과 : ${num1 + num2} 입니다.")
+                "-" -> println("빼기 결과 : ${num1 - num2} 입니다.")
+                "*" -> println("곱셈 결과 : ${num1 * num2} 입니다.")
+                "/" -> println("나눗셈 결과 : ${num1 / num2} 입니다.")
+                "%" -> println("연산 결과 : ${num1 % num2} 입니다.")
                 else -> println("연산자를 올바르게 입력해주세요")
             }
             var iswanted = println("새로운 연산을 하고 싶으면 1, 종료하고 싶은면 2를 눌러주세요")
