@@ -3,13 +3,13 @@ package com.example.calculator
 fun main(){
     while (true) {
         println("============계산기를 실행합니다============")
-        val numtTying1 = println("첫번째 숫자를 입력하세요.")
+        val numType1 = println("첫번째 숫자를 입력하세요.")
         var num1 = readLine()!!.toDouble()
 
         val opTyping = println("연사자를 입력해주세요 (+,-,*,/)")
         var op = readLine()
 
-        val numtTying2 = println("두번째 숫자를 입력하세요.")
+        val numType2 = println("두번째 숫자를 입력하세요.")
         var num2 = readLine()!!.toDouble()
 
         val add = Calculator(AddOperation())
