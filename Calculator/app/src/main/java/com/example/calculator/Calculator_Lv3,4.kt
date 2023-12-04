@@ -5,7 +5,7 @@ fun main(){
         println("============계산기를 실행합니다============")
         val numType1 = println("첫번째 숫자를 입력하세요.")
         var num1 = readLine()!!.toDouble()
-
+g
         val opTyping = println("연사자를 입력해주세요 (+,-,*,/)")
         var op = readLine()
 
